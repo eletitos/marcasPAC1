@@ -1,0 +1,75 @@
+.body{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.enunciado{
+    background-color: azure;
+    padding: 1rem 1rem;
+}
+.cuadro-texto{
+width: 95%;
+padding: 2.5%;
+height: 500px;
+border: none;
+
+}
+
+.container{
+    height: auto;
+    background-color: gainsboro;
+    width: 100%;
+
+}
+.ejercicio2{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+.prueba:checked +label{
+    font-weight: bold;
+}
+
+.prueba{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.esquema{
+    padding: 1rem;
+}
+
+.esquema img{
+    width: 100%;
+}
+
+.documentoxml{
+
+    margin: rem;
+    padding: 1rem;
+    background-color: gainsboro;
+}
+.indice{
+    margin:0rem;
+    padding: 0rem 2rem;
+   /*  width:150px; */
+    /* background-color: aliceblue; */
+}
+.indice h3{
+/*     display: inline-block; */
+    margin-top: 0.2rem !important;
+    margin-bottom:0 !important;
+    width: auto !important;
+}

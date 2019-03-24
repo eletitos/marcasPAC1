@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>PAC1 desarrollo. Lenguaje de Marcas</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>LENGUAJE DE MARCAS. PAC01 DESARROLLO.</h1>
+        <h3><i>índice</i></h3>
+        <ul class="indice">
+            <li><a href="#ejercicio1"><h3>Ejercicio 1</h3></a></li>
+            <li><a href="#ejercicio2"><h3>Ejercicio 2</h3></a></li>
+            <li><a href="#ejercicio3"><h3>Ejercicio 3</h3></a></li>
+            <li><a href="#ejercicio4"><h3>Ejercicio 4</h3></a></li>
+            <li><a href="#ejercicio5"><h3>Ejercicio 5</h3></a></li>
+            <li><a href="#ejercicio6"><h3>Ejercicio 6</h3></a></li>
+            <li><a href="#ejercicio7"><h3>Ejercicio 7</h3></a></li>
+            <li><a href="#ejercicio8"><h3>Ejercicio 8</h3></a></li>
+            <li><a href="#ejercicio9"><h3>Ejercicio 9</h3></a></li>
+            <li><a href="#ejercicio10"><h3>Ejercicio 10</h3></a></li>
+            <li><a href="#ejercicio11"><h3>Ejercicio 11</h3></a></li>
+            <li><a href="#ejercicio12"><h3>Ejercicio 12</h3></a></li>
+            <li><a href="#ejercicio13"><h3>Ejercicio 13</h3></a></li>
+            <li><a href="#ejercicio14"><h3>Ejercicio 14</h3></a></li>
+            <li><a href="#ejercicio15"><h3>Ejercicio 15</h3></a></li>
+        </ul>
+        <br><br><br>
+        <article id="ejercicio1">
+            <h2>EJERCICIO 1</h2>
+            <div class="enunciado">
+                <p>Realiza un esquema de la clasificación de los lenguajes de marcado. Haz uno según su funcionalidad y otro según el tipo de marcas usado. Utiliza tus propias palabras para añadir una breve descripción de cada tipo.</p>
+            </div>
+            <div class="respuesta flex-container">
+                <div class="esquema">
+                    <img src="img/ejc1a.jpg" alt="Clasificación según Tipo de marcas">
+                </div>
+                <div class="esquema">
+                    <img src="img/ejc1b.jpg" alt="Clasificación según funcionalidad">
+                </div>
+            </div>          
+        </article>
+        <br><br>
+        <article id="ejercicio2">
+                <h2>EJERCICIO 2</h2>
+                <div class="enunciado">
+                    <p>¿Qué herramientas propone el libro para la edición de los lenguajes de marcado? Busca en la red (internet) otras 2 herramientas de edición y nómbralas.</p>
+                </div>
+                <div class="respuesta">
+                 <p>El material didáctico propone herramientas como XMLSpy, oXygen, XML Copy Editor, XMLPad Pro Edition, Exchanger XML Editor y Liquid XML Editor.</p> 
+                 <p>Aparte de eso, resulta interesante el uso de editores de código como Sublime, Atom, Brakkets, Visual Studio Code, ...</p>
+                 
+                </div>          
+        </article>
+        <br><br>
+        <article id="ejercicio3">
+                <h2>EJERCICIO 3</h2>
+                <div class="enunciado">
+                    <p>Define la estructura de un documento XML bien formado. Solo los nombres de los elementos.</p>
+                </div>
+                <div class="respuesta">
+                 <p>Un documento XML estará bien formado siempre que cumpla las reglas establecidas por W3C. Algunas de ellas son:s</p>
+                 <ul>
+                    <li>Empezará por una instrucción de procesamiento xml, que indicará la versión y, opcionalmente, la codificación</li>
+                    <li>Un elemento raíz, del que descenderán los demás elementos</li>
+                    <li>elementos que se encuentren entre símbolos de apertura y cierre/li>
+                    <li>La anidación ha de ser correcta</li>
+                    <li>Los nombres de los elementos y atributos son sensibles a mayúsculas</li>
+                    <li>Los valores de los atributos deben aparecer entre comillas simples o dobles</li>
+                    <li>No puede haber dos atributos con el mismo nombre en el mismo elemento</li>
+                    <li>Los atributos pueden llevar el valor "simples" o "dobles"</li>
+                 </ul>
+                 <p>Este sería un ejemplo de un documento xml bien formado:</p>
+                 <div class="documentoxml">
+                    <p style="margin:0"><span style="font-size: 10pt; font-family: Consolas;">&lt;?xml version="1.0" encoding="UTF-8"&gt;</span></p>
+                    <p style="margin:0"><span style="font-size: 10pt; font-family: Consolas;">&lt;raiz&gt;</span></p>
+                    <p style="margin:0"><span style="font-size: 10pt; font-family: Consolas;">&nbsp;&nbsp;&nbsp; </span><span style="font-size: 10pt; font-family: Consolas;">&lt;elemento atributo1="valor" atributo2="valor"/&gt;</span></p>
+                    <p style="margin:0"><span style="font-size: 10pt; font-family: Consolas;">&nbsp;&nbsp;&nbsp; &lt;elemento atributo1="valor" atributo2="valor"/&gt;</span></p>
+                    <p style="margin:0"><span style="font-size: 10pt; font-family: Consolas;">&lt;/raiz&gt;</span></p>
+                 </div>
+                </div>          
+        </article>
+        <br><br>
+        <article id="ejercicio4">
+            <h2>EJERCICIO 4</h2>
+            <div class="enunciado">
+            	<p>Abre cualquier editor, o tu bloc de notas. Crea un documento *.html que se llamará Plantilla.html y que incluirá <a href="img/ejc1.jpg" onclick="window.open('img/ejc1.jpg','_blank','width=610,height=306'); return false;">el siguiente código:</a>
+            	</p>
+            	<ul>
+            	        <li>Guardalo y visualiza el archivo </strong>y <strong>cuerpo </strong>bien.</li>
+            	        <li>Cambia las partes en rojo y comprueba cómo se comporta el archivo y qué cambios ocurren al visualizarlo de nuevo con el navegador. </li>
+            	        </ul>
+            </div>
+            <div class="respuesta">
+                <p>Se ha sustituído el contenido de la etiqueta tittle, así como el contenido de la etiqueta body. <br>Se puede ver el resultado pulsando el siguiente botón.</p>
+                <button><a href="ejercicios/Plantilla.html"  onclick="window.open('ejercicios/Plantilla.html','_blank','width=610,height=306'); return false;">Ver resultado</a></button>
+            </div>         
+        </article>
+        <br><br>
+        <article id="ejercicio5">
+            <h2>EJERCICIO 5</h2>
+            <div class="enunciado">
+            	<p>Abre cualquier editor, o tu bloc de notas. Crea un documento *.html que se llamará FormatosTexto.html y que incluirá <a href="img/ejc5.jpg" onclick="window.open('/img/ejc5.jpg','_blank','width=479,height=661'); return false;">el siguiente código:</a>
+            	</p>
+            	<ul>
+            	    <li>Guardalo y visualiza el archivo .</li>
+                    <li>Cambia los formatos del tamaño del texto, comprueba cómo se comporta el archivo y qué cambios ocurren al visualizarlo de nuevo con el navegador. </li>
+                    <li>Investiga, y averigua para qué sirve la etiqueta meta y sus atributos.</li>
+            	</ul>
+            </div>
+            <div class="respuesta">
+                <p>Además de introducir las unidades REM y EM, me ha parecido interesante hacer los cambios usando las unidades viewport, tan útiles para el diseño responsive (vw, vh, vmin, vmax), las cuales se refieren a un tamaño relativo que depende de las dimensiones de la ventana del navegador. Resulta interesante ver cómo estas se comportan cuando se cambian las proporciones de la ventana. Puedes ver el resultado, pulsando el siguiente botón. </p>
+                <button><a href="ejercicios/FormatosTexto.html"  onclick="window.open('ejercicios/FormatosTexto.html','_blank','width=610,height=800'); return false;">Ver resultado</a></button>
+                <p>La etiqueta meta, que se sitúa dentro de la etiqueta header, no será visible para el usuario, y servirá para indicar una serie de propiedades del documento (metadatos), como pueden ser el autor, el tipo de contenido, información de comportamiento responsive, información de indexación, etc.
+                </p>
+                <p>La etiqueta <i>meta</i> será muy útil para el SEO de la página.</p>
+            </div>         
+        </article>
+        <br><br>
+        <article id="ejercicio6">
+            <h2>EJERCICIO 6</h2>
+            <div class="enunciado">
+            	<p>Se debe realizar una página web con el mayor parecido posible a la <a href="img/ejc6.jpg" data-lightbox="example-1" target="popup" 
+            	    onclick="window.open('/img/ejc6.jpg','_blank','width=589,height=337'); return false;">imagen</a>, teniendo en cuenta:
+            	</p>
+            	<ul>
+            	        <li>El documento debe de estar bien conformado, debe tener al menos su <strong>cabecera </strong>y <strong>cuerpo </strong>bien.</li>
+            	        <li>Debes usar las <strong>etiquetas </strong>que consideres necesarias y aplicarlas seg&uacute;n aparecen en la imagen.</li>
+            	        </ul>
+            </div>
+            <div class="respuesta">
+                <p>El código introducido es el siguiente:</p>
+                <div class="container">
+                    <iframe class="cuadro-texto" src="format/codigo6.html" ></iframe>
+                </div>
+                <p>Para ver la página creada con este código, pulse els siguiente botón:</p>
+                <button><a href="ejercicios/Ejercicio6.html" onclick="window.open('ejercicios/Ejercicio6.html','_blank','width=900,height=600'); return false;">Ver resultado</a></button>
+            </div>
+                    
+        </article>
+        <br><br>
+        <article id="ejercicio7">
+            <h2>EJERCICIO 7</h2>
+            <div class="enunciado">
+                    <p>Se debe realizar una página web con el mayor parecido posible a la <a href="img/ejc7.jpg" data-lightbox="example-1" target="popup" 
+                        onclick="window.open('/img/ejc7.jpg','_blank','width=649,height=322'); return false;">imagen</a>, teniendo en cuenta:
+                    </p>
+                    <ul>
+                            <li>El documento debe de estar bien conformado, debe tener al menos su <strong>cabecera </strong>y <strong>cuerpo </strong>bien.</li>
+                            <li>Debes usar las <strong>etiquetas </strong>que consideres necesarias y aplicarlas según aparecen en la imagen.</li>
+                            <li>Esta web debe incluir las listas que se precisan, los textos en los tamaños que se precisan (o similares) y el mismo orden propuesto</li>
+                            </ul>
+                </div>
+                <div class="respuesta">
+                    <p>El código introducido es el siguiente:</p>
+                    <div class="container">
+                        <iframe class="cuadro-texto" src="format/codigo7.html" ></iframe>
+                    </div>
+                    <p>Para ver la página creada con este código, pulse els siguiente botón:</p>
+                    <button><a href="ejercicios/Ejercicio7.html"  onclick="window.open('ejercicios/Ejercicio7.html','_blank','width=750,height=450'); return false;">Ver resultado</a></button>
+                </div>
+        </article>
+        <br><br>
+        <article id="ejercicio8">
+            <h2>EJERCICIO 8</h2>
+            <div class="enunciado">
+                    <p>Se debe realizar una página web con el mayor parecidoposible a la <a href="img/ejc8.jpg" data-lightbox="example-1"target="popup" 
+                        onclick="window.open('/img/ejc8.jpg','_blank','width=557,height=296'); return false;">imagen</a>, teniendo encuenta:
+                    </p>
+                    <ul>
+                        <li>El documento debe de estar bien conformado, debeteneral menos su <strong>cabecera </strong>y<strong>cuerpo</strong>bien.</li>
+                        <li>Debes usar las <strong>etiquetas</strong>queconsideres necesarias y aplicarlas segúnaparecen enla imagen.</li>
+                        <li>Necesitarás hacer uso de lasetiquetas<strong>form</strong> e <strong>input</strong>, ydelos atributos que estas disponen.</li>
+                        <li>El formulario debe incluír:
+                            <ul>
+                                <li>El nombre de alumno en un control detipotexto</li>
+                                <li>Los apellidos del alumno en un control detipotexto</li>
+                                <li>Sexo del alumno con dos opciones quesonexcluyentes</li>
+                                <li>El correo electrónico con un control detipotexto</li>
+                                <li>2 casillas de verificación con el texto delaimagen verificado</li>
+                                Un botón de envío (no es necesario querealiceninguna acción).
+                                <li>El método de envío del formulario, debeserGET.</li>
+                                <li>La longitud máxima del texto debe ser40caracteres</li>
+                                <li>La casilla o checkbox de "Declaro miintenciónde aprobar esta PAC debe apareceractivada pordefecto"</li>
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+            <div class="respuesta">
+                <p>El código introducido es el siguiente:</p>
+                <div class="container">
+                    <iframe class="cuadro-texto" src="format/codigo8.html" ></iframe>
+                </div>
+                <p>Para ver la página creada con este código, pulse elsiguiente botón:</p>
+                <button><a href="ejercicios/Ejercicio8.html"onclick="window.open('ejercicios/Ejercicio8.html','_blank','width=750,height=450'); return false;">Veresultado</a></button>
+        </div>
+        </article>
+        <br><br>
+        <article id="ejercicio9">
+            <h2>EJERCICIO 9</h2>
+            <div class="enunciado">
+                <p>Al formulario anterior se les debe añadir las siguientes características, de forma que el resultado sea como el de esta
+                    <a href="img/ejc9.jpg" target="popup" onclick="window.open('/img/ejc9.jpg','_blank','width=557,height=449'); return false;">imagen</a>:
+                </p>
+                <ul>
+                    <li>Población: Añadir una lista desplegable con 10 opciones que consideres adecuadas</li>
+                    <li>Una descripción, un área de texto en multilínea que se denomine "Mensaje al profesor"</li>
+                </ul>
+            </div>
+            <div class="respuesta">
+                <p>El código introducido es el siguiente:</p>
+                <div class="container">
+                    <iframe class="cuadro-texto" src="format/codigo9.html"></iframe>
+                </div>
+                <p>Para ver la página creada con este código, pulse els siguiente botón:</p>
+                <button>
+                    <a href="ejercicios/Ejercicio9.html" onclick="window.open('ejercicios/Ejercicio9.html','_blank','width=750,height=500'); return false;">Ver resultado</a>
+                </button>
+            </div>
+        </article>
+        <br><br>
+        <article id="ejercicio10">
+            <h2>EJERCICIO 10</h2>
+            <div class="enunciado">
+                <p>¿Cuál de estas etiquetas muestra el texto más grande?</p>
+    
+            </div>
+            <br>
+            <div class="respuesta">
+                <input class="prueba" type="radio" name="ejc10" id="a" disabled>
+                <label for="a">&lt;h2&gt;Hola, esto es un texto MUY GRANDE&lt;/h2&gt;</label>
+                <br>
+                <input class="prueba" type="radio" name="ejc10" id="b" disabled>
+                <label for="b">&lt;bigfont&gt;Hola, este tamaño de texto es el MÁS GRANDE DE TODOS&lt;/bigfont&gt;</label>  
+                <br>
+                <input class="prueba" type="radio" name="ejc10" id="c" disabled>
+                <label for="b">&lt;h12&gt;Hola, esto es un texto h-grande sin límite&lt;/h12&gt;</label>         
+                <br>
+                <input class="prueba" type="radio" name="ejc10" id="d" checked >
+                <label for="b">&lt;h1&gt;Hola, esto es un texto muy grande;/h1&gt;</label>       
+            </div>
+    
+        </article>
+        <br><br>
+        <article id="ejercicio11">
+            <h2>EJERCICIO 11</h2>
+            <div class="enunciado">
+                <p>Atendiendo al tipo de marcas que utilizan, los lenguajes de marcado se clasifican en lenguajes de:</p>
+            </div>
+            <br>
+            <div class="respuesta">
+                <input class="prueba" type="radio" name="ejc11" id="a" checked>
+                <label for="a">Presentación, descriptivo e híbrido</label>
+                <br>
+                <input class="prueba" type="radio" name="ejc11" id="b" disabled>
+                <label for="b">Postulación, descriptivo y representativo</label>  
+                <br>
+                <input class="prueba" type="radio" name="ejc11" id="c" disabled>
+                <label for="b">Documentación electrónica, tecnologías de internet y de propósito específico.</label>         
+                <br>
+                <input class="prueba" type="radio" name="ejc11" id="d" disabled >
+                <label for="b">Descriptivo, tipográfico y semántico</label>       
+            </div>
+        </article>
+        <br><br>
+        <article id="ejercicio12">
+            <h2>EJERCICIO 12</h2>
+            <div class="enunciado">
+                <p>Las siglas W3c corresponden a:</p>
+            </div>
+            <br>
+            <div class="respuesta">
+                <input class="prueba" type="radio" name="ejc12" id="a" disabled>
+                <label for="a">Worth World Consorcium</label>
+                <br>
+                <input class="prueba" type="radio" name="ejc12" id="b" checked>
+                <label for="b">World Wide Web Consortium</label>  
+                <br>
+                <input class="prueba" type="radio" name="ejc12" id="c" disabled>
+                <label for="b">World 3rd Consortium</label>         
+                <br>
+                <input class="prueba" type="radio" name="ejc12" id="d" disabled >
+                <label for="b">World Three Consortium</label>       
+            </div>
+        </article>
+        <br><br>
+        <article id="ejercicio13">
+            <h2>EJERCICIO 13</h2>
+            <div class="enunciado">
+                <p>Las siglas HTML significan:</p>
+            </div>
+            <br>
+            <div class="respuesta">
+                <input class="prueba" type="radio" name="ejc13" id="a" disabled>
+                <label for="a">HopeText Markup Language</label>
+                <br>
+                <input class="prueba" type="radio" name="ejc13" id="b" disabled>
+                <label for="b">HiperText Multi Language</label>  
+                <br>
+                <input class="prueba" type="radio" name="ejc13" id="c" disabled>
+                <label for="b">HiperText Markup Ligthage</label>         
+                <br>
+                <input class="prueba" type="radio" name="ejc13" id="d" checked >
+                <label for="b">Ninguna de las respuestas es correcta</label>       
+            </div>
+        </article>
+        <br><br>
+        <article id="ejercicio14">
+            <h2>EJERCICIO 14</h2>
+            <div class="enunciado">
+                <p>Señala qué etiqueta o etiquetas podría/n faltar en lugar de &lt;XXX&gt;</p>
+                <img src="img/ejc15.jpg" alt="Ejercicio 15">
+            </div>
+            <br>
+            <div class="respuesta">
+                <input class="prueba" type="radio" name="ejc14" id="a" disabled>
+                <label for="a">&lt;footer&gt;&lt;/footer&gt;</label>
+                <br>
+                <input class="prueba" type="radio" name="ejc43" id="b" disabled>
+                <label for="b">&lt;cabecera&gt;&lt;/cabecera&gt;</label>  
+                <br>
+                <input class="prueba" type="radio" name="ejc14" id="c" disabled>
+                <label for="b">&lt;start&gt;&lt;/start&gt;</label>         
+                <br>
+                <input class="prueba" type="radio" name="ejc14" id="d" checked >
+                <label for="b">Ninguna de las respuestas es correcta</label>       
+            </div>
+        </article>
+        <br><br>
+        <article id="ejercicio15">
+            <h2>EJERCICIO 15</h2>
+            <div class="enunciado">
+                <p>Señala la opción correcta. ¿Cuál de las siguientes no corresponde al contenido de una cabecera?</p>
+            </div>
+            <br>
+            <div class="respuesta">
+                <input class="prueba" type="radio" name="ejc15" id="a" disabled>
+                <label for="a">&lt;title&gt;</label>
+                <br>
+                <input class="prueba" type="radio" name="ejc15" id="b" disabled>
+                <label for="b">&lt;meta&gt;</label>  
+                <br>
+                <input class="prueba" type="radio" name="ejc15" id="c" disabled>
+                <label for="b">&lt;style&gt;</label>         
+                <br>
+                <input class="prueba" type="radio" name="ejc15" id="d" checked >
+                <label for="b">Todas corresponden a la cabecera.</label>       
+            </div>
+        </article>
+        <br><br>
+        <br><br><br><br>
+    </div>
+    
+
+</body>
+</html>
