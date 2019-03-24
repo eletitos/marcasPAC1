@@ -68,8 +68,11 @@ border: none;
     /* background-color: aliceblue; */
 }
 .indice h3{
-/*     display: inline-block; */
+    display: inline-block;
     margin-top: 0.2rem !important;
     margin-bottom:0 !important;
     width: auto !important;
+}
+.indice li{
+    margin:0rem;  
 }
