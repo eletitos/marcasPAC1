@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>RSS PAC UF2</title>
+        <link>https://eletitos.github.io/marcasPAC1/</link>
+        <description>Ejercicios resueltos de la asignatura de Lenguajes de marcas de Ilerna</description>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio1</link>
+            <description>Solución ejercicio 1</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio2</link>
+            <description>Solución ejercicio 2</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio3</link>
+            <description>Solución ejercicio 3</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio4</link>
+            <description>Solución ejercicio 4</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio5</link>
+            <description>Solución ejercicio 5</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio6</link>
+            <description>Solución ejercicio 6</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio7</link>
+            <description>Solución ejercicio 7</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio8</link>
+            <description>Solución ejercicio 8</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio9</link>
+            <description>Solución ejercicio 9</description>
+        </item>
+        <item>
+            <title>Ejercicio 1</title>
+            <link>https://eletitos.github.io/marcasPAC1/#ejercicio10</link>
+            <description>Ejercicios test</description>
+        </item>
+    </channel>
+</rss>
+     
